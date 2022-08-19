@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Politicalz</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<div class="quiz">
+		<h1>Quiz:</h1>
+
+		<form>
+			<div class="questions">
+				<label>Travail</label>
+				<h3>A quel point faut il augmenter le temps de travail ? (30h - 40h)</h3>
+				<p id="r1">35</p>
+				<input type="range" min="30" max="40" value="35" class="slider" id="q1">
+			</div>
+			<div class="questions">
+				<label>Nucléaire</label>
+				<h3>A quel point faut il utiliser le nucléaire ? (de tout supprimer à passer au 100% nucléaire)</h3>
+				<p id="r2">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q2">
+			</div>
+			<div class="questions">
+				<label>Energie verte</label>
+				<h3>A quel point faut il utiliser l’éolien et le solaire ?</h3>
+				<p id="r3">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q3">
+			</div>
+			<div class="questions">
+				<label>Privatisation</label>
+				<h3>Pour ou contre privatisation des autoroutes ? (0 = contre 1 = pour)</h3>
+				<p id="r4">0</p>
+				<input type="range" min="0" max="1" value="0" class="slider" id="q4">
+			</div>
+			<div class="questions">
+				<label>Privatisation des écoles</label>
+				<h3>A quel point faut il privatiser l'éducation ?</h3>
+				<p id="r5">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q5">
+			</div>
+			<div class="questions">
+				<label>Enseignants</label>
+				<h3>A quel point faut il augmenter le salaire/nombre d'étudiants ?</h3>
+				<p id="r6">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q6">
+			</div>
+			<div class="questions">
+				<label>Retraite</label>
+				<h3>A quel point faut il reculer l’âge de la retraite ?</h3>
+				<p id="r7">62</p>
+				<input type="range" min="55" max="70" value="62" class="slider" id="q7">
+			</div>
+			<div class="questions">
+				<label>Transport</label>
+				<h3>A quel point faut il réduire le prix des transports ?</h3>
+				<p id="r8">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q8">
+			</div>
+			<div class="questions">
+				<label>Immigration</label>
+				<h3>A quel point faut il accueillir les immigrés ?</h3>
+				<p id="r9">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q9">
+			</div>
+			<div class="questions">
+				<label>Décentralisation</label>
+				<h3>A quel point faut il valoriser les campagnes ?</h3>
+				<p id="r10">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q10">
+			</div>
+			<div class="questions">
+				<label>Europe</label>
+				<h3>A quel point faut il favoriser l'Europe ?</h3>
+				<p id="r11">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q11">
+			</div>
+			<div class="questions">
+				<label>Armement</label>
+				<h3>A quel point faut il investir dans l'armée française ?</h3>
+				<p id="r12">3</p>
+				<input type="range" min="0" max="6" value="3" class="slider" id="q12">
+			</div>
+			<div class="questions">
+				<label>OTAN</label>
+				<h3>Pour ou contre rester dans l'OTAN ? (0 = contre 1 = pour)</h3>
+				<p id="r13">0</p>
+				<input type="range" min="0" max="1" value="0" class="slider" id="q13">
+			</div>
+			<div class="questions">
+				<label>Numérique</label>
+				<h3>A quel point faut il accompagner le développement du numérique ?</h3>
+				<p id="r14">0</p>
+				<input type="range" min="0" max="1" value="0" class="slider" id="q14">
+			</div>
+			<div class="questions">
+				<label>Question optionnelle</label>
+				<h3>Pour qui avez vous souhaité voter lors des élections présidentielles de 2022 ? (Nous rappelons que les resultats de ce test son anonymes !)</h3>
+				<div class="radio">
+					<div class="btn">
+						<label>Jean Lasalle</label>
+						<input type="radio" name="vote" value="Lasalle">
+					</div>
+					<div class="btn">
+						<label>Emmanuel Macron</label>
+						<input type="radio" name="vote" value="Macron">
+					</div>
+					<div class="btn">
+						<label>Marine Le Pen</label>
+						<input type="radio" name="vote" value="Pen">
+					</div>
+					<div class="btn">
+						<label>Yannick Jadot</label>
+						<input type="radio" name="vote" value="Jadot">
+					</div>
+					<div class="btn">
+						<label>Jean-Luc Mélenchon</label>
+						<input type="radio" name="vote" value="Melenchon">
+					</div>
+					<div class="btn">
+						<label>Valérie Pécresse</label>
+						<input type="radio" name="vote" value="Pecresse">
+					</div>
+					<div class="btn">
+						<label>Philippe Poutou</label>
+						<input type="radio" name="vote" value="Poutou">
+					</div>
+					<div class="btn">
+						<label>Nicolas Dupont-Aignan</label>
+						<input type="radio" name="vote" value="Dupont-Aignan">
+					</div>
+					<div class="btn">
+						<label>Eric Zemmour</label>
+						<input type="radio" name="vote" value="Zemmour">
+					</div>
+					<div class="btn">
+						<label>Fabien Roussel</label>
+						<input type="radio" name="vote" value="Roussel">
+					</div>
+					<div class="btn">
+						<label>Nathalie Arthaud</label>
+						<input type="radio" name="vote" value="Arthaud">
+					</div>
+				</div>
+
+				
+			</div>
+			<input type="submit" class="button">
+		</form>
+	</div>
+	
+</body>
+</html>
+
+
+<script type="text/javascript">
+	
+	let questions = Array.prototype.slice.call(document.getElementsByClassName("questions"));
+	console.log(questions);
+	console.log(questions[0].childNodes);
+	
+	for(let i=0;i<questions.length;i++){
+		console.log("ici");
+		let child = questions[i].childNodes;
+		qId = child[7].getAttribute("id");
+		rId = child[5].getAttribute("id");
+		linkQAndR(qId.toString(),rId.toString());
+	}
+
+		
+	
+
+
+	function linkQAndR(question,reponse){
+
+		let QElement = document.getElementById(question);
+		let RElement = document.getElementById(reponse);
+
+		QElement.addEventListener("input",function() {
+		RElement.innerHTML = QElement.value;
+	});
+
+	}
+
+</script>
+
